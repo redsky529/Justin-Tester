@@ -23,6 +23,7 @@ void SAUVEGARDE ( struct boule tab2[8][19]);
 void BOULE_TOMBE (  struct boule tab2[8][19], struct boule tab1[8][19]);
 void COMPARAISON_SCORE (struct boule tab2[8][19], int *score_total, int *k);
 void PERMUTATION (struct boule tab2[8][19], int *w, int *v, int *x, int *y,char *action);
+int a=0;
 
 
 int main()
